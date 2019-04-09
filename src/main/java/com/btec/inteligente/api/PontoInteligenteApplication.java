@@ -10,4 +10,6 @@ public class PontoInteligenteApplication {
 		SpringApplication.run(PontoInteligenteApplication.class, args);
 	}
 
+		
+		
 }
