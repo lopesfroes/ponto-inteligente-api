@@ -1,4 +1,4 @@
-package com.btec.inteligente.api;
+package com.btec.pontointeligente.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
