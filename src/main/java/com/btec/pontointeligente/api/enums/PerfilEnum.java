@@ -1,4 +1,4 @@
-package com.btec.pontointeligente.api.enus;
+package com.btec.pontointeligente.api.enums;
 
 public enum PerfilEnum {
 

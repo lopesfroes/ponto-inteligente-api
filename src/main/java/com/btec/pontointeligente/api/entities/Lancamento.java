@@ -17,7 +17,7 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-import com.btec.pontointeligente.api.enus.TipoEnum;
+import com.btec.pontointeligente.api.enums.TipoEnum;
 
 @Entity
 @Table(name = "lancamento")

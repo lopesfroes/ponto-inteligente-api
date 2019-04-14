@@ -22,7 +22,7 @@ import javax.persistence.PreUpdate;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
-import com.btec.pontointeligente.api.enus.PerfilEnum;
+import com.btec.pontointeligente.api.enums.PerfilEnum;
 
 @Entity
 @Table(name = "funcionario")
@@ -36,7 +36,7 @@ public class Funcionario implements Serializable {
 	private Long id;
 	private String nome;
 	private String email;
-	private int cpf;
+	private String cpf;
 	private String Senha;
 	private BigDecimal valorHora;
 	private Float qtdHorasTrabalhoDia;
@@ -93,12 +93,12 @@ public class Funcionario implements Serializable {
 	}
 
 	@Column(name = "cpf", nullable = false)
-	public int getCpf() {
+	public String getCpf() {
 		return cpf;
 	}
 
 
-	public void setCpf(int cpf) {
+	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
 
